@@ -1,6 +1,6 @@
 # Basic Usage
 ```python
-from modelbuilder import Model, Attribute
+from modelbuilder.model import Model, Attribute
 
 class Pet(Model):
     tag = Attribute(obj_name="tag", obj_type=Tag)
