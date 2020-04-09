@@ -11,4 +11,4 @@ git fetch --all || exit
 git checkout master || exit
 git merge --no-ff "$TRAVIS_COMMIT" || exit
 
-git push @github.com/">https://${GIT_TOKEN}@github.com/<your-github-user>/<your-repository-name>.git"
+git push @github.com/">https://${GIT_TOKEN}@github.com/hector-cortes/modelbuilder.git"
