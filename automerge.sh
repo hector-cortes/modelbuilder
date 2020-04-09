@@ -11,4 +11,5 @@ git fetch --all || exit
 git checkout master || exit
 git merge --no-ff "$TRAVIS_COMMIT" || exit
 
-git push @github.com/">https://${GIT_TOKEN}@github.com/hector-cortes/modelbuilder.git"
+git remote set-url origin "https://github.com/hector-crtes/modelbuilder.git"
+git push origin master
